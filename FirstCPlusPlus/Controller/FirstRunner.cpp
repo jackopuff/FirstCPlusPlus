@@ -1,15 +1,17 @@
 //
-//  main.cpp
+//  FirstRunner.cpp
 //  FirstCPlusPlus
 //
 //  Created by Carter, Jackson on 1/23/17.
 //  Copyright © 2017 Carter, Jackson. All rights reserved.
 //
 
-#include <iostream>
+#include "FirstController.h"
 
-int main() {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+    FirstController  * app = new FirstController();
+    app->start();
+    
     return 0;
 }
