@@ -41,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B7CED62F1E39337900127224 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7E903481E369404002C14C8 /* FirstRunner.cpp */,
+				B7E9034B1E3695E4002C14C8 /* FirstController.cpp */,
+				B7E9034E1E36986C002C14C8 /* FirstController.h */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		B7E903321E368F3C002C14C8 = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +70,7 @@
 		B7E9033D1E368F3C002C14C8 /* FirstCPlusPlus */ = {
 			isa = PBXGroup;
 			children = (
-				B7E903481E369404002C14C8 /* FirstRunner.cpp */,
-				B7E9034B1E3695E4002C14C8 /* FirstController.cpp */,
-				B7E9034E1E36986C002C14C8 /* FirstController.h */,
+				B7CED62F1E39337900127224 /* Controller */,
 			);
 			path = FirstCPlusPlus;
 			sourceTree = "<group>";
@@ -252,6 +260,7 @@
 				B7E903441E368F3C002C14C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
